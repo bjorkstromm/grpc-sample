@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package greeter;
+option csharp_namespace = "Greeter.DTO";
+
+// The response message containing the greetings
+message HelloReply {
+    string message = 1;
+}

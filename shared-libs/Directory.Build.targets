@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <GoogleProtobufPackageVersion>3.10.0</GoogleProtobufPackageVersion>
+    <GrpcPackageVersion>2.24.0</GrpcPackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Google.Protobuf" Version="$(GoogleProtobufPackageVersion)" />
+    <PackageReference Update="Grpc.Core.Api" Version="$(GrpcPackageVersion)" />
+    <PackageReference Update="Grpc.Tools" Version="$(GrpcPackageVersion)" />
+  </ItemGroup>
+
+</Project>
