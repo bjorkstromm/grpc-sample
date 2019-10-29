@@ -1,0 +1,9 @@
+{
+    "protoc": {
+        "path": "${workspaceRoot}/../protoc/bin/protoc.exe",
+        "options": [
+            "--proto_path=protos",
+            "--csharp_out=protos/out"
+        ]
+    }
+}
