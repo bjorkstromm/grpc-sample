@@ -9,6 +9,8 @@
     <PackageReference Update="Grpc.Core.Api" Version="$(GrpcPackageVersion)" />
     <PackageReference Update="Grpc.Tools" Version="$(GrpcPackageVersion)" />
     <PackageReference Update="Grpc.Core" Version="$(GrpcPackageVersion)" />
+    <PackageReference Update="Grpc.Net.Client" Version="$(GrpcPackageVersion)" />
+    <PackageReference Update="Grpc.AspNetCore" Version="$(GrpcPackageVersion)" />
   </ItemGroup>
 
 </Project>
