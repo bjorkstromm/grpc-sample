@@ -8,6 +8,7 @@
     <PackageReference Update="Google.Protobuf" Version="$(GoogleProtobufPackageVersion)" />
     <PackageReference Update="Grpc.Core.Api" Version="$(GrpcPackageVersion)" />
     <PackageReference Update="Grpc.Tools" Version="$(GrpcPackageVersion)" />
+    <PackageReference Update="Grpc.Core" Version="$(GrpcPackageVersion)" />
   </ItemGroup>
 
 </Project>

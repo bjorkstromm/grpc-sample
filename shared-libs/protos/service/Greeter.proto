@@ -7,7 +7,7 @@ import "dto/HelloRequest.proto";
 import "dto/HelloReply.proto";
 
 // The greeting service definition.
-service Greeter {
+service GreeterService {
   // Sends a greeting
   rpc SayHello (HelloRequest) returns (HelloReply) {}
 }
