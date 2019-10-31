@@ -12,7 +12,7 @@ namespace client.grpccore
         {
             var channel = GrpcChannel.ForAddress("https://localhost:50051");
             var client =  new Greeter.Net.Greeter.GreeterClient(channel);
-            var reply = await client.SayHelloAsync(new HelloRequest { Name = "GreeterClient" });
+            var reply = await client.SayHelloAsync(new HelloRequest { Name = "gRPC dotnet" });
             Console.WriteLine("Greeting: " + reply.Message);
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
